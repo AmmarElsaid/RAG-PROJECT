@@ -76,7 +76,7 @@ st.title("📄 PDF Chatbot")
 if "history" not in st.session_state:
     st.session_state.history = []
 
-query = st.text_input("Ask a question about the PDF:")
+query = st.text_input("Ask the bot a question about the PDF:")
 
 if query:
     result = qa_chain.invoke({"query": query})

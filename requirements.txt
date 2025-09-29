@@ -1,0 +1,19 @@
+openai
+groq
+python-dotenv
+langchain
+langchain-community
+langchain-huggingface
+chromadb
+pypdf
+sentence-transformers
+torch
+faster-whisper
+yt-dlp
+pydub 
+
+# create github
+# repo
+# desktop app
+# add commit push
+# centra link control panel,  chat

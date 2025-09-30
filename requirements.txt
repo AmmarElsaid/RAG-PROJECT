@@ -11,6 +11,8 @@ torch
 faster-whisper
 yt-dlp
 pydub 
+langchain_groq
+streamlit
 
 # create github
 # repo

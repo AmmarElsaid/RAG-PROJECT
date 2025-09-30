@@ -12,9 +12,12 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 groq_key = os.getenv("GROQ_API_KEY")
 # Load the document
-loader = PyPDFLoader("AI IN SA.pdf")
-documents = loader.load()
+pdf_files = ["AI IN SA.pdf","Project_Specification.pdf"]
+documents = []
 
+for pdf in pdf_files:
+    loader = PyPDFLoader(pdf)
+    documents.extend(loader.load())
 
 # split the document 
 splitter = RecursiveCharacterTextSplitter(

@@ -34,7 +34,7 @@ embedding = HuggingFaceEmbeddings(
 vectordb = Chroma.from_documents(
     documents = chunks,
     embedding = embedding,
-    persist_directory="chroma_store"
+    persist_directory="chroma_store"          
 )
 
 

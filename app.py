@@ -34,7 +34,7 @@ embedding = HuggingFaceEmbeddings(
 vectordb = Chroma.from_documents(
     documents = chunks,
     embedding = embedding,
-    persist_directory="C:/Users/NASSAR/OneDrive/Desktop/RAG PROJECT"
+    persist_directory="chroma_store"
 )
 
 
